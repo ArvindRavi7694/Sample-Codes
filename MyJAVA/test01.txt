@@ -2,6 +2,9 @@ git add
 git status
 git commit -m "message"
 git push
+git reset
+
+git config --global core.autocrlf false
 
 git branch branchName -> to create a branch
 git push --set-upstream origin branchName -> to push the branch in the GitHub
